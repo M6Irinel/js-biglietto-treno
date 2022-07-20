@@ -6,10 +6,10 @@ const discount = document.getElementById("discount");
 const total = document.getElementById("total");
 
 // chiediamo al cliente i chilometri da percorere
-const KMChosen = parseFloat(prompt("Inserisci la distanza da percorrere in KM, per favore"));
+const KMChosen = parseInt(prompt("Inserisci la distanza da percorrere in KM, per favore"));
 
 // chiediamo anche la sua età
-const yearsPerson = parseFloat(prompt("Adesso ci serve solo la sua età. Grazie"));
+const yearsPerson = parseInt(prompt("Adesso ci serve solo la sua età. Grazie"));
 
 // verifichiamo se i valori che ci manda il cliente sono giusti
 if(isNaN(KMChosen) || isNaN(yearsPerson)) {

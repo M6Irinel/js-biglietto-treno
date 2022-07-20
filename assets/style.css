@@ -5,3 +5,7 @@
 #tabella td:not(:last-of-type){
     border-right: 1px solid white;
 }
+
+#discount {
+    color: green !important;
+}

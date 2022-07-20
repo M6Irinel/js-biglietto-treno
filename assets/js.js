@@ -43,7 +43,7 @@ if(isNaN(KMChosen) || isNaN(yearsPerson)) {
         discount.innerHTML = "-" + (prezzoNormale * 0.4).toFixed(2) + " € / 40%";
 
         // inseriamo il totale (x - (x * y%))
-        total.innerHTML += " " + (prezzoNormale - parseFloat(prezzoNormale * 0.4)).toFixed(2) + " €";
+        total.innerHTML += " " + (prezzoNormale - (prezzoNormale * 0.4)).toFixed(2) + " €";
     }
     // SE l'età del cliente è tra il minore è il maggiore
     else {

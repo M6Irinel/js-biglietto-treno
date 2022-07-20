@@ -1,0 +1,7 @@
+#tabella th:not(:last-of-type){
+    border-right: 1px solid white;
+}
+
+#tabella td:not(:last-of-type){
+    border-right: 1px solid white;
+}
